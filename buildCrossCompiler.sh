@@ -4,6 +4,8 @@
 #NOTE: All directories other than $PREFIX are temporary and only needed during the build process
 export PREFIX="/usr/local/i686elfgcc"
 export TARGET=i686-elf
+
+#TEMPORARILY adds directory to PATH environment variable; To add it permanently, modify the .bashrc file in $HOME
 export PATH="$PREFIX/bin:$PATH"
 
 #Downloads binutils.tar.gz from the official repository, extracts and builds
@@ -33,6 +35,3 @@ sudo make install-gcc
 sudo make install-target-libgcc
 
 ls /usr/local/i386elfgcc/bin
-
-#TEMPORARILY adds directory to PATH environment variable; To add it permanently, modify the .bashrc file in $HOME
-export PATH="$PATH:/usr/local/i686elfgcc/bin"
