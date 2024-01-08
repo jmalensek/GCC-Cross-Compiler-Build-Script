@@ -4,6 +4,8 @@ This is a simple bash script that builds a cross compiler for i686 platforms usi
 
 <h2>Build Process</h2>
 
+Before executing the script you may want to read the following for some additional information:
+
 Lines 5 and 6 set the values of two variables needed throughout the process. $PREFIX is the directory where you want to build the compiler, and $TARGET is the target platform for which the cross compiler will be able to compile code. Both of these can be changed freely depending on your preferences.
 
 For more information about what's happening in the script or cross compilers in general, see the following page:\
