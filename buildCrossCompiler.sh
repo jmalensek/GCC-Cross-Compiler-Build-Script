@@ -14,7 +14,7 @@ tar xf binutils-2.41.tar.gz
 mkdir binutils-build
 cd binutils-build
 
-../binutils-2.41/configure --target=$TARGET --enable-interwork --enable-multilib --disable-nls --disable-werror --prefix=$PREFIX 2>&1 | tee configure.log
+../binutils-2.41/configure --target=$TARGET --enable-interwork --with-sysroot --enable-multilib --disable-nls --disable-werror --prefix=$PREFIX 2>&1 | tee configure.log
 
 sudo make all install 2>&1 | tee make.log
 
