@@ -19,5 +19,7 @@ The script downloads and extracts two packages:\
 * binutils-2.41 (Line 14)
 * gcc-13.2.0 (Line 25)
 
+If you wish to use different version, you can change the package names at lines.
+
 For more information about what's happening in the script or cross compilers in general, see the following page:\
 https://wiki.osdev.org/GCC_Cross-Compiler
