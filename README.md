@@ -13,7 +13,7 @@ Line 9 TEMPORARILY adds the directory that will contain the compiler binaries to
 <code>export PATH="build-directory/bin:$PATH"</code>\
 NOTE: Replace build-directory with the directory where your cross compiler will be located (<code>$PREFIX</code>)
 
-Lines 12 to 35 download and extract all required packages, and then build the cross compiler. Know that other than <code>$PREFIX</code>, all created or downloaded files and directories are only needed during the build process and can freely be removed after. After the process is complete you can find all of them in /tmp/src.
+Lines 12 to 35 download and extract all required packages, and then build the cross compiler. Know that other than <code>$PREFIX</code>, all created or downloaded files and directories are only needed during the build process and can freely be removed after. After the process is complete you can find all of them in <code>/tmp/src</code>.
 
 For more information about what's happening in the script or cross compilers in general, see the following page:\
 https://wiki.osdev.org/GCC_Cross-Compiler
