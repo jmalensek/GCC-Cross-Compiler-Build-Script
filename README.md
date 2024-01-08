@@ -15,7 +15,7 @@ NOTE: Replace build-directory with the directory where your cross compiler will 
 
 Lines 12 to 35 download and extract all required packages, and then build the cross compiler. Know that other than <code>$PREFIX</code>, all created or downloaded files and directories are only needed during the build process and can freely be removed after. After the process is complete you can find them all in <code>/tmp/src</code>.
 
-The script downloads and extracts two packages:\
+The script downloads and extracts two packages:
 * binutils-2.41; Official repository: https://ftp.gnu.org/gnu/binutils
 * gcc-13.2.0; Official repository: https://ftp.gnu.org/gnu/gcc
 
