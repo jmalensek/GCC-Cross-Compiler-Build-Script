@@ -9,7 +9,7 @@ export TARGET=i686-elf
 export PATH="$PREFIX/bin:$PATH"
 
 #Downloads binutils.tar.gz from the official repository, extracts and builds
-$binutils="binutils-2.41"
+binutils="binutils-2.41"
 mkdir /tmp/src
 cd /tmp/src
 curl -O http://ftp.gnu.org/gnu/binutils/$binutils.tar.gz
@@ -22,7 +22,7 @@ cd binutils-build
 sudo make all install 2>&1 | tee make.log
 
 #Downloads gcc.tar.gz from the official repository, extracts and builds
-$gcc="gcc-13.2.0"
+gcc="gcc-13.2.0"
 cd /tmp/src
 curl -O https://ftp.gnu.org/gnu/gcc/gcc-13.2.0/$gcc.tar.gz
 tar xf $gcc.tar.gz
