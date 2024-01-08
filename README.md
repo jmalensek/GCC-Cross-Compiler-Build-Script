@@ -10,8 +10,8 @@ Lines 5 and 6 set the values of two variables needed throughout the process. $PR
 
 Line 9 TEMPORARILY adds the directory that will contain the compiler binaries to the PATH environment variable for the duration of the current terminal session. To add it permanently, you will have to modify the .bashrc file located in /$HOME directory by adding the following line:\
 
-<span style="font-family:Times New Roman">export PATH="build-directory/bin:$PATH"</span>\
-NOTE: Replace build-directory whith the directory where your cross compiler will be located ($PREFIX) 
+<span style="font-family:Times New Roman;color:red">export PATH="build-directory/bin:$PATH"</span>\
+NOTE: Replace build-directory with the directory where your cross compiler will be located ($PREFIX) 
 
 For more information about what's happening in the script or cross compilers in general, see the following page:\
 https://wiki.osdev.org/GCC_Cross-Compiler
