@@ -16,10 +16,10 @@ NOTE: Replace build-directory with the directory where your cross compiler will 
 Lines 12 to 35 download and extract all required packages, and then build the cross compiler. Know that other than <code>$PREFIX</code>, all created or downloaded files and directories are only needed during the build process and can freely be removed after. After the process is complete you can find them all in <code>/tmp/src</code>.
 
 The script downloads and extracts two packages:\
-* binutils-2.41 (Line 14)
-* gcc-13.2.0 (Line 25)
+* binutils-2.41
+* gcc-13.2.0
 
-If you wish to use different versions, you can change the package names at lines 14,15,19.
+Package names are defined under <code>$binutils</code> and <code>$gcc</code>. If you wish to use different versions, simply change the version numbers in the two variables. To see all package releases, click on the above links, to view the official repositories. 
 
 For more information about what's happening in the script or cross compilers in general, see the following page:\
 https://wiki.osdev.org/GCC_Cross-Compiler
