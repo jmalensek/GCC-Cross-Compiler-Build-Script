@@ -34,4 +34,4 @@ sudo make all-target-libgcc
 sudo make install-gcc
 sudo make install-target-libgcc
 
-ls /usr/local/i386elfgcc/bin
+ls $PREFIX/bin
